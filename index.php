@@ -74,7 +74,22 @@ echo "<br>";
 echo "<br>";
 echo '<i style="color:blue;">Answer of Question 6:<br></i>';
 echo "<br>";
-echo "<br>";
+
+function SumNum($count){
+	$j=0;
+	$count--;
+	for ($i=0; $i < 6; $i++){
+	$j = ($j+$i);
+	}
+	echo "1+2+3+4+5". "=". $j ."<br>";
+
+	if($count !=0){
+		SumNum($count);
+	}
+}
+
+SumNum(1);
+
 
 
 
