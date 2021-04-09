@@ -72,6 +72,14 @@ for ($i = 40; $i < 46; $i++){
 
 echo "<br>";
 echo "<br>";
+echo '<i style="color:blue;">Answer of Question 6:<br></i>';
+echo "<br>";
+echo "<br>";
+
+
+
+echo "<br>";
+echo "<br>";
 echo '<i style="color:blue;">Answer of Question 7:<br></i>';
 echo "<br>";
 $Num = array(1,2,3,4,5,6,7,8,9,10);
@@ -91,8 +99,22 @@ echo "<br>";
 echo '<i style="color:blue;">Answer of Question 8:<br></i>';
 echo "<br>";
 
+$FndNames=array("Äbdulla", "Mohammad", "Rumy", "Mazhar", "Jahangir", "Ripon", "Azad","Razib","Titu", "Apu" );
+	
+print_r($FndNames);
+echo "<br>";
+echo "<br>";
 
+	for($i=0; $i < 10; $i++){
+		$ChkL = strlen($FndNames[$i]);
+		if($ChkL<6){
+			echo $FndNames[$i] . " is Invited <br>"; 
+		}
+	}
+	
 
+echo "<br>";
+echo "<br>";
 
 
 ?>
